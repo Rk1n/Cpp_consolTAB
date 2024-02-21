@@ -11,12 +11,14 @@ void Names(char a[]) {
 }
 void TAB() {
 	int width = 79 + 9;
-	cout << "\n";
 	cout.width(width);
 	cout.fill('-');
-	//cout << left << "Сельскохозяйственные культуры\n";
-	//cout.width(width);
-	//cout.fill('-');
+	cout << "\n";
+	cout << left << "|Сельскохозяйственные культуры";
+	cout << right << "|\n";
+	cout.width(width);
+	cout.fill('-');
+	cout << "\n";
 
 }
 
