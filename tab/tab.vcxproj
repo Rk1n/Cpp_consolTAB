@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{44259448-a904-43c0-82db-772370cec92e}</ProjectGuid>
-    <RootNamespace>Conns</RootNamespace>
+    <ProjectGuid>{b55cda77-1acb-4723-b09f-ff95b624a262}</ProjectGuid>
+    <RootNamespace>tab</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,8 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Conns.cpp" />
-    <ClCompile Include="new tab.cpp" />
+    <ClCompile Include="tab.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

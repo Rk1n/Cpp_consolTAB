@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Conns.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="new tab.cpp">
+    <ClCompile Include="tab.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
